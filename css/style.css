@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, TODO -- update these for your own design */
+/* Custom properties and basic design 'defaults', TODO -- update these for your own design */
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -50,7 +50,7 @@ img {
 
 strong { font-weight: var(--fw-bold) }
 
-/* Typography */
+/* Typography and more advanced design */
 
 h1,
 h2,
@@ -70,6 +70,10 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+    display: block;
 }
 
 .section__subtitle {
